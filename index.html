@@ -1,70 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nav bar</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="src/style.css">
+        <title>Naver Whale</title>
         <script src="https://kit.fontawesome.com/f378337fb3.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <script src="js.js" defer></script>
-        <nav class="nav-bar">
-            <div class="navbar-logo">
-                <i class="fas fa-paw"></i>
-                <a href="">Naver whale</a>
-            </div>
-            <ul class="navbar-menu">
-                <li>
-                    <a href="">Why we whale</a>
-                </li>
-                <li>
-                    <a href="">가이드</a>
-                </li>
-                <li>
-                    <a href="">스토어</a>
-                </li>
-                <li>
-                    <a href="">연구소</a>
-                </li>
-                <li>
-                    <a href="">웨일 스페이스</a>
-                </li>
-                <li>
-                    <a href="">웨일북</a>
-                </li>
-            </ul>
-            <ul class="navbar-links">
-                <li>
-                    <i class="fab fa-facebook"></i>
-                </li>
-                <li>
-                    <i class="fab fa-instagram"></i>
-                </li>
-            </ul>
-            <a href="#" class="navbar-toogleBtn">
-                <i class="fas fa-bars"></i>
-            </a>
-            </nav>
-
-
-            <ul class="menu">
-                <li>
-                  <a href="#">Parent Link</a>
-                  
-                  <ul>
-                    <li><a href="#">Child Link</a></li>
-                    <li><a href="#">Child Link</a></li>
-                    <li><a href="#">Child Link</a></li>
-                    <li><a href="#">Child Link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            <button> 다운로드
         
+        <header>
+            <h1 class="logo_whale">
+                <a class="whale_logo" href="">NAVER whale</a>
+            </h1>
+            <nav id="nav">
+                <ul class="menu-list" id="list_main">
+                    <li class="menu-label" id="main">
+                        <a href="">Why We Whale</a>
+                        <ul class="sub-menu" id="sub1">
+                            <li>
+                                <a href="">Brand Story</a>
+                            </li>
+                            <li>
+                                <a href="">주요 기능</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-label" id="guide">
+                        <a href="">가이드</a>
+                        <ul class="sub-menu" id="sub2">
+                            <li>
+                                <a href="">What's NEW</a>
+                            </li>
+                            <li>
+                                <a href="">웨일 이용가이드</a>
+                            </li>
+                            <li>
+                                <a href="">마이 엑티비티</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-label">
+                        <a href="">스토어</a>
+                        <ul class="sub-menu" id="sub3">
+                            <li>
+                                <a href="">확장앱</a>
+                            </li>
+                            <li>
+                                <a href="">배경테마</a>
+                            </li>
+                            <li>
+                                <a href="">개발자센터</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-label">
+                        <a href="">연구소</a>
+                        <ul class="sub-menu" id="sub4">
+                            <li>
+                                <a href="">연구소 홈</a>
+                            </li>
+                            <li>
+                                <a href="">베스트 연구</a>
+                            </li>
+                            <li>
+                                <a href="">버그바운티</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-label">
+                        <a href="">웨일 스페이스</a>
+                        <ul class="sub-menu" id="sub5">
+                            <li>
+                                <a href="">제품 소개</a>
+                            </li>
+                            <li>
+                                <a href="">기능</a>
+                            </li>
+                            <li>
+                                <a href="">제휴 서비스</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-label">
+                        <a href="">웨일북</a>
+                        <ul class="sub-menu" id="sub6">
+                            <li>
+                                <a href="">웨일북 소개</a>
+                            </li>
+                            <li>
+                                <a href="">웨일 OS</a>
+                            </li>
+                            <li>
+                                <a href="">디바이스 정보</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <button class="whale_down">다운로드</button>
+        </header>
+        <div id="popUp"></div>
+        <section id="sec1">
+            <div class="main1">
+                <h1 class="text">일상은 인터넷이 아닌
+                </h1>
+                <h1 class="text2">
+                    <span style="color:#05c3a7;">브라우저</span>를 켤 때 시작됩니다!</h1>
+            </div>
+            <div class="main2">
+                <h1 class="text3">일상을 여는 새로운 시작,
+                    <span id="naverfont" style="color:#05c3a7;">네이버 웨일</span></h1>
+            </div>
+            <div class="naverfill"></div>
+            <div>
+                <img class="img" src="img/img1.png">
+            </div>
+            <div class="mint"></div>
+            <div class="blue"></div>
+            <div class="purple"></div>
+            <div class="white"></div>
+            <div class="btn">
+                <button class="down">다운로드
+                    <span>
+                        <i class="fas fa-angle-double-down"></i>
+                    </span>
+                </button>
+            </div>
+
+        </section>
+        <footer>
+
+            <h1 class="naverWhale">NAVER whale</h1>
+
+            <ul class="footerList">
+                <li class="li1">
+                    <a href="">이용약관</a>
+                </li>
+                <li class="li2">
+                    <a href="">| 개인정보 처리방침</a>
+                </li>
+                <li class="li3">
+                    <a href="">| Naver whale 개인정보를 위한 백서</a>
+                </li>
+                <li class="li4">
+                    <a href="">| 제휴 제한</a>
+                </li>
+                <li class="li5">
+                    <a href="">| 고객센터</a>
+                </li>
+                <li class="li6">
+                    <a href="">| © NAVER Corp.</a>
+                </li>
+                <button id="beta">
+                    <span>
+                        <i class="fas fa-download"></i>
+                    </i>
+                </span>
+                베타 다운로드
             </button>
 
-            
-        </body>
-    </html>
+        </ul>
+    </footer>
+    <script src="submenu.js"></script>
+</body>
+</html>
