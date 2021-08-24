@@ -3,7 +3,7 @@ body {
 }
 
 .menu-list {
-  z-index: 2;
+  z-index: 4;
   list-style: none;
   padding: 10px 5px;
   margin: 0;
@@ -78,7 +78,7 @@ body {
 }
 
 .whale_down {
-  z-index: 2;
+  z-index: 4;
   position: fixed;
   right: 90px;
   top: 23px;
@@ -101,7 +101,7 @@ body {
 .whale_logo {
   text-decoration: none;
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   color: rgba(0, 0, 0, 0.705);
   top: 25px;
   left: 145px;
@@ -286,7 +286,7 @@ footer {
 
 .naverWhale {
   position: absolute;
-  left: 880px;
+  left: 900px;
   bottom: 90px;
   font-size: 20px;
 }
@@ -298,7 +298,7 @@ footer {
 #beta {
   position: absolute;
   left: 1380px;
-  top: 85px;
+  top: 92px;
   border-radius: 5px;
   color: #9c9c9c;
   background-color: rgba(247, 247, 247, 0.986);
@@ -339,7 +339,7 @@ img {
 .purple {
   display: block;
   position: absolute;
-  background: linear-gradient(to top right, #8e86ff 55%, #fff);
+  background: linear-gradient(to top right, #793fff, #fff 95%);
   width: 100%;
   height: 100%;
   top: 2800px;
@@ -372,7 +372,7 @@ img {
   width: 2000px;
   height: 1px;
   background-color: #e0e0e0;
-  z-index: 3;
+  z-index: 4;
   top: 95px;
 }
 
@@ -385,48 +385,162 @@ img {
   transition: transform 0.5s;
 }
 
+.container h1 {
+  position: absolute;
+  z-index: 1;
+  top: 1380px;
+  left: 200px;
+  font-size: 55px;
+  font-weight: bold;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 68px;
+  text-align: left;
+  word-spacing: 5px;
+}
+
 .inner {
   width: 100vw;
   float: left;
 }
 
 .inner img {
-  z-index: 1;
-  width: 100vw;
-  width: 850px;
-  height: 500px;
+  z-index: 3;
+  width: 700px;
+  height: 400px;
   position: absolute;
   left: 950px;
-  top: 1250px;
+  top: 1290px;
   border-radius: 55px;
 }
 
 .btn1 {
   position: absolute;
   border-color: transparent;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  top: 100px;
-  left: 30px;
+  background-color: #e0e0e0d5;
+  width: 10px;
+  height: 15px;
+  border-radius: 10px;
+  top: 1848px;
+  left: 880px;
 }
 
 .btn2 {
   position: absolute;
   border-color: transparent;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  top: 100px;
-  left: 100px;
+  background-color: #e0e0e0d5;
+  width: 10px;
+  height: 15px;
+  border-radius: 10px;
+  top: 1848px;
+  left: 900px;
 }
 
 .btn3 {
   position: absolute;
   border-color: transparent;
+  background-color: #e0e0e0d5;
+  width: 10px;
+  height: 15px;
+  border-radius: 20px;
+  top: 1848px;
+  left: 920px;
+}
+.whale_on {
   background-color: white;
-  width: 50px;
-  height: 50px;
-  top: 100px;
-  left: 150px;
+  color: #12d7b9;
+}
+
+.container h2 {
+  position: absolute;
+  top: 1305px;
+  left: 200px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.712);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  word-spacing: -1px;
+}
+
+.circle {
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background-color: transparent;
+  border: 2.5px solid rgba(255, 255, 255, 0.897);
+  border-radius: 200px;
+  top: 1050px;
+  left: 1300px;
+}
+.circle2 {
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: #00d1b2;
+  border-radius: 200px;
+  top: 1300px;
+  left: 1750px;
+}
+
+.circle3 {
+  z-index: 1;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  background-color: transparent;
+  border: 2.5px solid rgba(255, 255, 255, 0.897);
+  border-radius: 300px;
+  top: 1000px;
+  left: -430px;
+}
+
+.circle4 {
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-color: transparent;
+  border: 2.5px solid rgba(255, 255, 255, 0.897);
+  border-radius: 250px;
+  top: 1100px;
+  left: -300px;
+}
+
+.container h3 {
+  position: absolute;
+  top: 1600px;
+  left: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  word-spacing: -1px;
+}
+
+.www {
+  z-index: 1;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 3980px;
+  left: 710px;
+}
+
+.down2 {
+  z-index: 1;
+  position: absolute;
+  left: 836px;
+  top: 4100px;
+  border-radius: 50px;
+  background-color: #05d6b4;
+  color: white;
+  padding: 5px 10px;
+  font-size: 30px;
+  height: 73px;
+  width: 230px;
+  border: 1px solid rgb(13, 212, 196);
 }
